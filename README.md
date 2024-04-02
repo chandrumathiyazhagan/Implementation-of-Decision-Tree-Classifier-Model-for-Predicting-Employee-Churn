@@ -7,19 +7,26 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
-1. 
-2. 
-3. 
-4. 
+## Algorithm:
+
+1.Import the required libraries.
+
+2.Upload and read the dataset.
+
+3.Check for any null values using the isnull() function.
+
+4.From sklearn.tree import DecisionTreeClassifier and use criterion as entropy.
+
+5.Find the accuracy of the model and predict the required values by importing the required module from sklearn.
 
 ## Program:
 
-/*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
-Developed by: 
-RegisterNumber:  
-*/
+
+Developed by: M.CHANDRU
+
+RegisterNumber:212222230026  
+
 ```python
 import pandas as pd
 data=pd.read_csv("/content/Employee_EX6.csv")
@@ -71,10 +78,13 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 
 ## Output:
 
+### DATA HEAD:
 ![Screenshot 2024-04-02 160839](https://github.com/chandrumathiyazhagan/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119393023/9271c57e-b3ab-4e0c-b57d-60b46602f8e2)
 
+### ACCURACY:
 ![Screenshot 2024-04-02 160852](https://github.com/chandrumathiyazhagan/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119393023/c7942d5d-ebc7-4960-ac98-8d233396260d)
 
+### DATA PREDICTION:
 ![Screenshot 2024-04-02 160907](https://github.com/chandrumathiyazhagan/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119393023/16f67c00-7ad7-43d5-8467-cceddfdc73f3)
 
 ## Result:
